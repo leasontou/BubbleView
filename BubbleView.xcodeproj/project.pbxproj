@@ -16,6 +16,7 @@
 		95D0CCDF1C32D8E20042577F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D0CCDD1C32D8E20042577F /* LaunchScreen.storyboard */; };
 		95D0CCEA1C32D8E20042577F /* BubbleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D0CCE91C32D8E20042577F /* BubbleViewTests.m */; };
 		95D0CCF51C32D8E20042577F /* BubbleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D0CCF41C32D8E20042577F /* BubbleViewUITests.m */; };
+		95D0CD051C32D9270042577F /* BubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D0CD041C32D9270042577F /* BubbleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		95D0CCF01C32D8E20042577F /* BubbleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D0CCF41C32D8E20042577F /* BubbleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleViewUITests.m; sourceTree = "<group>"; };
 		95D0CCF61C32D8E20042577F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D0CD031C32D9270042577F /* BubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleView.h; sourceTree = "<group>"; };
+		95D0CD041C32D9270042577F /* BubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		95D0CCCB1C32D8E20042577F /* BubbleView */ = {
 			isa = PBXGroup;
 			children = (
+				95D0CD021C32D9270042577F /* Class */,
 				95D0CCCF1C32D8E20042577F /* AppDelegate.h */,
 				95D0CCD01C32D8E20042577F /* AppDelegate.m */,
 				95D0CCD21C32D8E20042577F /* ViewController.h */,
@@ -141,6 +145,15 @@
 				95D0CCF61C32D8E20042577F /* Info.plist */,
 			);
 			path = BubbleViewUITests;
+			sourceTree = "<group>";
+		};
+		95D0CD021C32D9270042577F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				95D0CD031C32D9270042577F /* BubbleView.h */,
+				95D0CD041C32D9270042577F /* BubbleView.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				95D0CCD41C32D8E20042577F /* ViewController.m in Sources */,
 				95D0CCD11C32D8E20042577F /* AppDelegate.m in Sources */,
+				95D0CD051C32D9270042577F /* BubbleView.m in Sources */,
 				95D0CCDA1C32D8E20042577F /* BubbleView.xcdatamodeld in Sources */,
 				95D0CCCE1C32D8E20042577F /* main.m in Sources */,
 			);
